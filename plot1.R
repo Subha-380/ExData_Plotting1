@@ -24,30 +24,7 @@ plot1 <- function(file){
         dev.copy(png, file="plot1.png", width=480, height=480)
         dev.off()
         cat("Plot1.png has been saved in", getwd())
-        
-        
-        
-        
+         
 }      
         
-        
-        
-        
-        
-        
-        
-        
-      ##  x<-read.table(file,header= TRUE, sep =";")
-#        x$Date <- as.Date(x$Date, format = "%d %m %Y")
- #       powerdf <- x[(x$Date =="01-02-2007") | (x$Date == "02-02-2007"),]
-  #      powerdf$Global_active_power <- as.numeric(as.character(powerdf$Global_active_power))
-   #     
-    #    hist(powerdf$Global_active_power, 
-     #             main = paste("Global Active Power"))
-                ## xlab = "Global Active Power (kilowatts)") 
-        
-                 ## col = "red")
-      #  dev.copy(png,file="plot1.png")
-       # dev.off()
-        #cat("Output file plot1.png is saved in",getwd())
-#}
+  
